@@ -37,10 +37,11 @@
 }
 .home-body-item{
   float: right;
-  border: 1px solid grey;
+  border: 1.5px solid grey;
   padding: 20px;
   text-align: center;
   background-color: #dcdcdc;
+
 
   width: 32%;
   height: auto;
@@ -49,6 +50,13 @@
   font-style: italic;
   color: grey;
   font-size: 1em;
+}
+.home-body-item a{
+  text-decoration: none;
+  color:inherit;
+}
+.home-body-item:hover{
+  opacity: 0.5;
 }
 
 /*  Gallery */
