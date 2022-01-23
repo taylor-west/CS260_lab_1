@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+/*  background-color: #FFFFF0; */
+}
+.main_logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+}
+
+/*  FOOTER  */
+
+.footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #000000;
+  background-color: white;
+  justify-content: center;
+}
+.footer-links{
+  margin-top: 1em;
+  list-style: none;
+  font-size: 0.75em;
+}
+.footer-links a{
+    text-decoration: none;
+}
+/*  homepage*/
+.home-body{
+  display: flex;
+  justify-content: space-around;
+  margin: auto 2em;
+}
+.home-body-item{
+  float: right;
+  border: 1px solid grey;
+  padding: 20px;
+  text-align: center;
+  background-color: #dcdcdc;
+
+  width: 32%;
+  height: auto;
+}
+.home-body-item p{
+  font-style: italic;
+  color: grey;
+  font-size: 1em;
+}
+
+/*  Gallery */
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1em 2em 10em 2em;
+}
+
+.photo-grid-item {
+  margin: 1em;
+  margin-bottom: 1em;
+  width: 14.5em;
+  height: 18em;
+  opacity: 0.5;
+  align-self: center;
+
+
+}
+.photo-grid-item:hover{
+  opacity: 1.0;
+}
+img{
+  height: 100%;
+
+}
+
+/*  About */
+.about-paragraph{
+  width: 600px;
+  Margin: auto auto;
+  padding-top: 20px;
+  font-style: italic;
+  color: grey;
+}
