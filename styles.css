@@ -84,12 +84,15 @@
 .photo-grid-item:hover{
   opacity: 1.0;
 }
-img{
+.photo-grid-item img{
   height: 100%;
 
 }
 
 /*  About */
+.home-main{
+  padding: 2em;
+}
 .about-paragraph{
   width: 600px;
   Margin: auto auto;
@@ -99,17 +102,24 @@ img{
 }
 .simple-body{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
   padding: 2em;
   margin-bottom: 15em;
+  overflow: hidden;
+  font-size: 1.25em;
+
 }
 .simple-photo{
-  float: left;
-  height: 18em;
-  margin-right: 1em;
+  height: 20%;
+  margin: 1em;
 
+}
+#bread-pic{
+  height: 15em;
 }
 .about-body p{
   margin: 2em;
+  font-size: 2em;
 }
