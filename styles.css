@@ -29,34 +29,33 @@
 .footer-links a{
     text-decoration: none;
 }
-/*  homepage*/
-.home-body{
+/* REVIEW  */
+.reviews{
   display: flex;
   justify-content: space-around;
-  margin: auto 2em;
+  margin: 2em auto;
+  margin-bottom: 15em;
+  overflow: hidden;
+  list-style: none;
 }
-.home-body-item{
-  float: right;
+.review-body-item{
   border: 1.5px solid grey;
-  padding: 20px;
+  padding: 1em;
   text-align: center;
   background-color: #dcdcdc;
 
 
-  width: 32%;
+  width: 10em;
   height: auto;
 }
-.home-body-item p{
+.review-body-item p{
   font-style: italic;
   color: grey;
   font-size: 1em;
 }
-.home-body-item a{
+.review-body-item a{
   text-decoration: none;
   color:inherit;
-}
-.home-body-item:hover{
-  opacity: 0.5;
 }
 
 /*  Gallery */
@@ -97,4 +96,21 @@ img{
   padding-top: 20px;
   font-style: italic;
   color: grey;
+}
+.simple-body{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 2em;
+  margin-bottom: 15em;
+  border: 1px solid #FF0000;
+}
+.simple-photo{
+  float: left;
+  height: 18em;
+  margin-right: 1em;
+
+}
+.about-body p{
+  margin: 2em;
 }
